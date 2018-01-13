@@ -51,6 +51,7 @@ times[]
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
+  console.log('Hello');
   var options = {
     url: 'https://my.api.mockaroo.com/mobilize_mock_data.json',
     headers: {
